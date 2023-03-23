@@ -69,6 +69,10 @@ html{
     border: none;
     font-size: 14px;
     font-weight: 600;
+    transition: .3 ease-in-out;
+}
+#header button:hover{
+    transform: scale(1.1);
 }
 
 
@@ -195,5 +199,116 @@ html{
 /* SERMON SECTION */
 #sermon{
     background: #FFF5F5;
-    height: 50vh;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    margin: 40px 60px;
+}
+.top h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--Blue--);
+    margin-bottom: 12px;
+}
+.top h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Blue--);
+}
+.sermon-box{
+    margin: auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.box-1{
+    padding: 10px;
+    margin: auto 20px;
+    display: block;
+    background: var(--White--);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    width: 20%;
+}
+.box-1 img{
+    width: 100%;
+}
+.box-1 h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.box-1 p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.btnnn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--Blue--);
+    padding: 5px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.hear i{
+    color: var(--Black--);
+    margin: auto 5px;
+    font-size: 10px;
+}
+.hear h5{
+    color: var(--Black--);
+    margin: auto 5px;
+    font-size: 10px;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: var(--Blue--);
+    padding: 5px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.watch i{
+    color: var(--White--);
+    margin: auto 5px;
+    font-size: 10px;
+}
+.watch h5{
+    color: var(--White--);
+    margin: auto 5px;
+    font-size: 10px;
+}
+#sermon button{
+    cursor: pointer;
+    background: var(--Blue--);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+#sermon button span{
+    color: var(--White--);
+    margin-right: 5px;
+}
+#sermon button i{
+    color: var(--White--);
+    margin-left: 5px;
 }
