@@ -199,7 +199,6 @@ html{
 /* SERMON SECTION */
 #sermon{
     background: #FFF5F5;
-    margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -303,6 +302,7 @@ html{
     align-items: center;
     justify-content: space-between;
     margin-left: 60px;
+    margin-bottom: 20px;
 }
 #sermon button span{
     color: var(--White--);
@@ -311,4 +311,96 @@ html{
 #sermon button i{
     color: var(--White--);
     margin-left: 5px;
+}
+
+
+/* GALLERY SECTION */
+
+
+
+/* SUBSCRIBE SECTION */
+#subscribe{
+    height: 305px;
+    background: var(--Blue--);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#subscribe .mail h3{
+    color: var(--White--);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 25px;
+}
+#subscribe .mail span{
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: var(--White--);
+}
+#subscribe .form{
+    display: flex;
+    flex-direction: column;
+}
+#subscribe .form input{
+    background: transparent;
+    border: 2px solid var(--White--);
+    padding: 10px 60px 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: var(--White--);
+}
+#subscribe .form input::placeholder{
+    color: var(--White--);
+    font-size: 12px;
+}
+#subscribe .form button{
+    cursor: pointer;
+    background: var(--Black--);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: var(--White--);
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2);
+}
+.user-label{
+    color: var(--White--);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER SECTION */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+footer .link a{
+    text-decoration: none;
+    color: var(--Blue--);
+    font-size: 16px;
+    margin: 10px 15px;
+}
+footer div .dot{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+footer .dot{
+    height: 30px;
+    width: 30px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot i{
+    color: var(--Blue--);
+    font-size: 16px;
+    text-align: center;
 }
